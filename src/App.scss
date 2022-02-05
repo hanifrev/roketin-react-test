@@ -1,0 +1,22 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+body {
+  background-color: #e2e2ee;
+}
+.App {
+  height: 100vh;
+  font-family: 'Lato';
+}
+.main-container {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56) ;
+  background-color: #f2f2fc;
+  &--title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
